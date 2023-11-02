@@ -1,6 +1,6 @@
-#To summarize, this optimization model aims to determine the optimal amounts of coffee1 and coffee2 to produce in order to maximize profit, 
-#while satisfying the given constraints on coffee consumption, labor, and machine availability. 
-#The code sets up the problem, defines the objective function and constraints, solves the problem, and displays the optimal solution.
+# To summarize, this optimization model aims to determine the optimal amounts of coffee1 and coffee2 to produce in order to maximize profit, 
+# while satisfying the given constraints on coffee consumption, labor, and machine availability. 
+# The code sets up the problem, defines the objective function and constraints, solves the problem, and displays the optimal solution.
 
 from pulp import LpProblem, LpVariable, LpMaximize, lpSum, value
 

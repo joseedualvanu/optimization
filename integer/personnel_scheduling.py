@@ -1,3 +1,7 @@
+# The optimal solution provides a personnel schedule that minimizes the staffing costs while ensuring that each day's staffing requirements are met. 
+# For example, it tells you how many employees should work on each day to efficiently allocate resources. 
+# You can use this schedule for workforce planning and staffing management.
+
 from pulp import LpProblem, LpVariable, LpMinimize, lpSum, value
 
 # Create the problem instance
